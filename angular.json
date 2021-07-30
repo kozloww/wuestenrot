@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/wuerostenr",
+            "outputPath": "dist/wuerored",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "wuerostenr:build:production"
+              "browserTarget": "wuerored:build:production"
             },
             "development": {
-              "browserTarget": "wuerostenr:build:development"
+              "browserTarget": "wuerored:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "wuerostenr:build"
+            "browserTarget": "wuerored:build"
           }
         },
         "test": {
@@ -107,5 +107,5 @@
       }
     }
   },
-  "defaultProject": "wuerostenr"
+  "defaultProject": "wuerored"
 }
